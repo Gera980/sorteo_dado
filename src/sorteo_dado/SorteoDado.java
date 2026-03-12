@@ -14,16 +14,21 @@ public class SorteoDado {
     public static int iteracion;
     
 
+// Hecho por Gerardo  <3
+    public static String dado;
+    public static int iteracion;
+    
+
     public static int lanzarDado() {
         return (int) (Math.random() * 6) + 1;
     }
 
-    public static String compararDado(int n){
+    public static String compararDado(){
         int i = 1;
         int d = 0;
         String reporte = "";
         
-        while(i <= n){
+        while(i <= 3){
             
             d = lanzarDado();
             
